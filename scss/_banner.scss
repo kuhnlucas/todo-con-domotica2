@@ -1,0 +1,24 @@
+.banner {
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fafafa;
+    padding: 100px;
+    margin: 20px;
+  }
+  
+  .banner2 {
+    background-image: url("../img/banner2.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    padding: 100px;
+    margin: 20px;
+  }
+  

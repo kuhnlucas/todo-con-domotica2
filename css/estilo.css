@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.banner {
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #fafafa;
+  padding: 100px;
+  margin: 20px;
+}
+
+.banner2 {
+  background-image: url("../img/banner2.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  padding: 100px;
+  margin: 20px;
+}
+
+.footerCarrousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #0e0e0e;
+  padding: auto;
+  margin: auto;
+}
+
+#carouselExampleCaptions {
+  margin-top: auto;
+}
+
+.sucursales {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.contenedorArticulos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.articulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.articuloImagen {
+  width: 100%;
+  height: 490px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  object-fit: contain;
+}
+
+.articuloTitulo {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.articuloDescripcion {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3700ff;
+  text-align: center;
+}
+
+.articuloBtn {
+  padding: 10px 20px;
+  background-color: #1800f3;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #0e0e0e;
+  padding: auto;
+  margin: auto;
+}
+
+.imagenGaleria {
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 100%;
+  filter: grayscale(50%);
+}
+.imagenGaleria:hover {
+  filter: grayscale(0);
+}
+
+.imagenGaleria {
+  border-radius: 1rem;
+  padding: 0.4rem;
+  max-width: 100%;
+  filter: grayscale(50%);
+}
+.imagenGaleria:hover {
+  filter: grayscale(0);
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  width: 80px;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  padding-left: 2px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+a {
+  color: #fafafa;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+h1 {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 1000;
+}
+
+.enlace {
+  color: #050303;
+  text-decoration: dotted;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.tienda {
+  color: white;
+  background-color: #060708;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 9px 25px;
+  border-radius: 50px;
+}
+
+.carrito {
+  background-color: rgb(65, 240, 88);
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding: 9px 25px;
+  border-radius: 50px;
+}
+
+.logoWhatsapp {
+  width: 100px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+p {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 200;
+  padding: 2px;
+}
+
+.primero {
+  order: 1;
+  width: 300px;
+  height: 300px;
+}
+
+.segundo {
+  order: 2;
+  width: 400px;
+  height: 350px;
+  height: 300px;
+}
+
+.tercero {
+  order: 3;
+}
+
+.productos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contenedorCursos {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .contenedorCursos {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 767px) {
+  .tituloPrincipal h1 {
+    display: none;
+  }
+  .imagenGaleria {
+    max-width: 90%;
+    margin: auto;
+  }
+  .imagenGaleria:hover {
+    filter: grayscale(-3);
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

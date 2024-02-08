@@ -1,0 +1,28 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contenedorCursos {
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 15px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .contenedorCursos {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .tituloPrincipal h1 {
+      display: none;
+    }
+  
+    .imagenGaleria {
+      max-width: 90%;
+      margin: auto;
+  
+      &:hover {
+        filter: grayscale(-3);
+      }
+    }
+  }
+    

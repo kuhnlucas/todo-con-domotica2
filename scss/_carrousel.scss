@@ -1,0 +1,22 @@
+.footerCarrousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #0e0e0e;
+    padding: auto;
+    margin: auto;
+  }
+  
+  #carouselExampleCaptions {
+    margin-top: auto;
+  }
+  
+  .sucursales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  

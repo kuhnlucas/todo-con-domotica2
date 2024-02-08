@@ -1,0 +1,22 @@
+.imagenGaleria {
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 100%;
+    filter: grayscale(50%);
+  
+    &:hover {
+      filter: grayscale(0);
+    }
+  }
+  
+  .imagenGaleria {
+    border-radius: 1rem;
+    padding: 0.4rem;
+    max-width: 100%;
+    filter: grayscale(50%);
+  
+    &:hover {
+      filter: grayscale(0);
+    }
+  }
+  
