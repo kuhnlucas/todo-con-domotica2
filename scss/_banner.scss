@@ -7,7 +7,7 @@
     align-items: flex-start;
     color: #fafafa;
     padding: 100px;
-    margin: 20px;
+    margin-bottom: 20px;
   }
   
   .banner2 {
@@ -19,6 +19,18 @@
     align-items: center;
     color: #000000;
     padding: 100px;
-    margin: 20px;
+    margin: 0px;
+  }
+  
+  .banner3 {
+    background-image: url("../img/banner3.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    padding: 100px;
+    margin-bottom: 20px;
   }
   
